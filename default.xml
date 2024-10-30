@@ -2,7 +2,7 @@
 <manifest>
     <remote name="origin" fetch="https://github.com/tatkintan" />
 
-    <default revision="main" remote="origin" />
+    <default revision="master" remote="origin" />
 
     <project name="hello_world" path="hello_world" />
 </manifest>
