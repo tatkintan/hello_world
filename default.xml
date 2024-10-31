@@ -1,11 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
     <remote name="origin" fetch="https://github.com/tatkintan" />
-
-    <default revision="master" remote="origin" />
-
-    <project name="hello_world" path="hello_world" />
-
+    
     <remote name="k230_sdk" fetch="https://github.com/kendryte/k230_sdk" />
+
+    <remote name="github" fetch="https://github.com" />
+    
+  
+    <project name="hello_world" path="hello_world" />
     <project name="kendryte" path="k230_sdk" />
+    <project path="buck" name="facebook/buck" revision="refs/heads/master" remote="github"/>
+
+    
+    <default revision="master" remote="origin" sync-j="4" />
+
+   
 </manifest>
