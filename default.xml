@@ -6,6 +6,6 @@
 
     <project name="hello_world" path="hello_world" />
 
-    <remote name="k230_sd" fetch="https://github.com/kendryte/k230_sdk" />
+    <remote name="k230_sdk" fetch="https://github.com/kendryte/k230_sdk" />
     <project name="kendryte" path="k230_sdk" />
 </manifest>
