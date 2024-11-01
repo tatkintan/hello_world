@@ -10,7 +10,8 @@
   -->
     
     <project name="hello_world" path="hello_world" />
-
+    <remote name="googlesource" fetch="https://gerrit.googlesource.com/" />
+    <project path="gitiles" name="gitiles" revision="refs/heads/master" remote="googlesource"/>
     <!--
     <project name="kendryte" path="k230_sdk" />
     <project path="buck" name="facebook/buck" revision="refs/heads/master" remote="github"/>
