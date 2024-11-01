@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <remote name="origin" fetch="https://github.com/tatkintan/hello_world" />
+    <remote name="origin" fetch="https://github.com/tatkintan" />
 
     <!--
     <remote name="k230_sdk" fetch="https://github.com/kendryte/k230_sdk" />
