@@ -4,7 +4,7 @@
     <project name="hello_world" path="hello_world" />
     
     <remote name="k230_sdk" fetch="https://github.com/kendryte" />
-    <project path="k230_sdk" name="k230_sdk" />
+    <project path="k230_sdk" name="hello_world" />
 
     
 
