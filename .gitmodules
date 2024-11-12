@@ -1,0 +1,11 @@
+[submodule "qemu"]
+        path = qemu
+        url = https://gitlab.com/qemu-project/qemu.git
+[submodule "pk"]
+        path = pk
+        url = https://github.com/riscv-software-src/riscv-pk.git
+        branch = master
+[submodule "llvm"]
+        path = llvm
+        url = https://github.com/llvm/llvm-project.git
+
